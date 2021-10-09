@@ -1,0 +1,631 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+.container_dashboard {
+  width: 100%;
+  height: 2150px;
+  background: rgba(101,204,184,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+.navbar-dashboard {
+  width: 100%;
+  height: 69px;
+  background: url("../images/v27_90.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  overflow: hidden;
+}
+.bgNav {
+  width: 100%;
+  height: 68px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  overflow: hidden;
+}
+.Logo_Nav {
+  width: 210px;
+  height: 69px;
+  background: url("../images/v3_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 847px;
+  overflow: hidden;
+}
+.sidebar {
+  width: 42px;
+  height: 36px;
+  background: url("../images/v3_20.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 17px;
+  left: 19px;
+  overflow: hidden;
+}
+.textsidebar {
+  width: 57px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 75px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.textsidebar1 {
+  width: 57px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 245px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.textsidebar2 {
+  width: 110px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 25px;
+  left: 375px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.textsidebar:hover{
+  color: rgba(101,204,184,1);
+  transition: 0.5s;
+}
+.textsidebar1:hover{
+  color: rgba(101,204,184,1);
+  transition: 0.5s;
+}
+.textsidebar2:hover{
+  color: rgba(101,204,184,1);
+  transition: 0.5s;
+}
+.btnRegister2 {
+  width: 128px;
+  height: 43px;
+  background: rgba(59,148,94,1);
+  opacity: 1;
+  position: absolute;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: large;
+  top: 14px;
+  left: 1771px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+.btnRegister2:hover{
+  color: black;
+  background: #f2f2f2;
+  transition: 0.5s;
+}
+.LoginBtn {
+  width: 67px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 23px;
+  left: 1683px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.LoginBtn:hover{
+  color: rgba(59,148,94,1);
+  transition: 0.5s;
+}
+.slogan {
+  width: 370px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 199px;
+  left: 775px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 40px;
+  opacity: 1;
+  text-align: center;
+}
+.btn_startNow {
+  width: 210px;
+  height: 43px;
+  background: url("../images/v27_91.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 412px;
+  left: 850px;
+  overflow: hidden;
+}
+.btnstartNow {
+  width: 210px;
+  height: 43px;
+  background: rgba(59,148,94,1);
+  opacity: 1;
+  position: relative;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 20px;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+.btnstartNow:hover{
+  color: black;
+  background: #f2f2f2;
+  transition: 0.5s;
+}
+.body_DashBoard {
+  width: 100%;
+  height: 477px;
+  background: url("../images/v27_93.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 535px;
+  left: 0px;
+  overflow: hidden;
+}
+.barCODE {
+  width: 100%;
+  height: 477px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.logobarCODE {
+  width: 269px;
+  height: 67px;
+  background: url("../images/v4_45.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 7px;
+  left: 1292px;
+  overflow: hidden;
+}
+.textbarCODE {
+  width: 523px;
+  color: url("../images/v4_36.png");
+  position: absolute;
+  top: 47px;
+  left: 51px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.textbarCODE2 {
+  width: 1023px;
+  color: url("../images/v4_41.png");
+  position: absolute;
+  top: 159px;
+  left: 100px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 64px;
+  opacity: 1;
+  text-align: center;
+}
+.imagebarCODE {
+  width: 571px;
+  height: 403px;
+  background: url("../images/v4_39.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 74px;
+  left: 1171px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.btn_startNow2 {
+  width: 478px;
+  height: 93px;
+  background: url("../images/v27_92.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 296px;
+  left: 199px;
+  overflow: hidden;
+}
+.btnstartNow2 {
+  width: 478px;
+  height: 93px;
+  background: rgba(59,148,94,1);
+  opacity: 1;
+  position: absolute;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 40px;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+.btnstartNow2:hover{
+  color: black;
+  background-color: #f2f2f2;
+  transition: 0.5s;
+}
+.textaboutUS{
+  width: 187px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1100px;
+  left: 866px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.logobottom {
+  width: 338px;
+  height: 311px;
+  background: url("../images/v4_50.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1121px;
+  left: 791px;
+  overflow: hidden;
+}
+.quotes {
+  width: 50%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 1424px;
+  left: 480px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.btn_ContactUs {
+  width: 274px;
+  height: 61px;
+  background: url("../images/v27_94.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1691px;
+  left: 820px;
+  overflow: hidden;
+}
+.btnContactUs {
+  width: 274px;
+  height: 61px;
+  background: rgba(59,148,94,1);
+  opacity: 1;
+  position: absolute;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 25px;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  overflow: hidden;
+}
+.btnContactUs:hover{
+  color: black;
+  background-color: #f2f2f2;
+  transition: 0.5s;
+}
+.footer {
+  width: 100%;
+  height: 322px;
+  background: url("../images/v27_95.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 1838px;
+  left: 0px;
+  overflow: hidden;
+}
+.footerbg {
+  width: 100%;
+  height: 299px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 23px;
+  left: 0px;
+  overflow: hidden;
+}
+.logo1 {
+  width: 89px;
+  height: 89px;
+  background: url("../images/v16_15.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 164px;
+  left: 802px;
+  overflow: hidden;
+}
+.textContactUs {
+  width: 217px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 86px;
+  left: 85px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.number {
+  width: 191px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 159px;
+  left: 85px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.email {
+  width: 294px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 213px;
+  left: 85px;
+  font-family: Montserrat;
+  font-weight: Medium;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.ytlogo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/v16_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 224px;
+  left: 1510px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.linkldnlogo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/v16_20.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 159px;
+  left: 1648px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.textFollowUs {
+  width: 192px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 86px;
+  left: 1517px;
+  font-family: Montserrat;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.facebooklogo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/v16_22.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 159px;
+  left: 1510px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.twitterlogo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/v16_23.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 159px;
+  left: 1579px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.instagramlogo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/v16_24.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 159px;
+  left: 1786px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.bloglogo {
+  width: 50px;
+  height: 50px;
+  background: url("../images/v16_25.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 159px;
+  left: 1717px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.logoFooter {
+  width: 408px;
+  height: 184px;
+  background: url("../images/v16_26.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 755px;
+  overflow: hidden;
+}
+.credit {
+  width: 231px;
+  height: 21px;
+  background: url("../images/v16_27.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 284px;
+  left: 844px;
+  overflow: hidden;
+}
+.logocredit {
+  width: 21px;
+  height: 21px;
+  background: url("../images/v16_28.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.textcredit {
+  width: 206px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 25px;
+  font-family: Risque;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.logo2 {
+  width: 94px;
+  height: 93px;
+  background: url("../images/v16_30.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 159px;
+  left: 916px;
+  overflow: hidden;
+}
+.logo3 {
+  width: 113px;
+  height: 127px;
+  background: url("../images/v16_31.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 142px;
+  left: 1021px;
+  overflow: hidden;
+}

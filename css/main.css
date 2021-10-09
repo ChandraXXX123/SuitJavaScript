@@ -1,0 +1,459 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+.container_home {
+  width: 100%;
+  height: 1080px;
+  background: rgba(101,204,184,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+.header_home {
+  width: 750px;
+  height: 706px;
+  background: url("../images/v27_83.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 51px;
+  left: 585px;
+  overflow: hidden;
+}
+.logo_home {
+  width: 750px;
+  height: 592px;
+  background: url("../images/v2_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.e-scape_home {
+  width: 727px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 541px;
+  left: 11px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.quotes_home {
+  width: 442px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 641px;
+  left: 150px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: left;
+}
+.btn_start {
+  width: 132px;
+  height: 39px;
+  background: url("../images/v3_10.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 856px;
+  left: 884px;
+  overflow: hidden;
+}
+.btn_starthome {
+  width: 132px;
+  height: 39px;
+  background: rgba(59,148,94,1);
+  color: #f2f2f2;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.btn_starthome:hover{
+  color: black;
+  background-color: #f2f2f2;
+  transition: 1s;
+}
+.bgBatik {
+  width: 100%;
+  height: 100%;
+  background: url("../images/v39_19.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 0.3499999940395355;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: -1;
+}
+.container_login {
+  width: 100%;
+  height: 1080px;
+  background: rgba(101,204,184,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+.Logo_login {
+  width: 260px;
+  height: 217px;
+  background: url("../images/v25_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 186px;
+  left: 830px;
+  overflow: hidden;
+}
+.input_Email {
+  width: 666px;
+  height: 97px;
+  background: url("../images/v27_84.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 403px;
+  left: 627px;
+  overflow: hidden;
+}
+.inputUser_Email {
+  width: 666px;
+  height: 60px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: large;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.text-Email {
+  width: 65px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.input_Pass {
+  width: 666px;
+  height: 95px;
+  background: url("../images/v27_86.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 546px;
+  left: 627px;
+  overflow: hidden;
+}
+.inputUser_Pass {
+  width: 666px;
+  height: 60px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: large;
+  top: 35px;
+  left: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.text-Pass {
+  width: 112px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.btn_Login {
+  width: 132px;
+  height: 39px;
+  background: url("../images/v25_6.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 740px;
+  left: 894px;
+  overflow: hidden;
+}
+.btnLogin {
+  width: 132px;
+  height: 39px;
+  background: rgba(59,148,94,1);
+  color: #f2f2f2;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.btnLogin:hover{
+  color:black;
+  background: #f2f2f2;
+  transition: 1s;
+}
+.registerTo {
+  width: 168px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 797px;
+  left: 880px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 18px;
+  opacity: 1;
+  text-align: left;
+}
+.registerTo:hover{
+  color: #f2f2f2;
+  transition: 1s;
+}
+.container_Register {
+  width: 100%;
+  height: 1080px;
+  background: rgba(101,204,184,1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  z-index: 0;
+}
+.logo_register {
+  width: 260px;
+  height: 217px;
+  background: url("../images/v25_16.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 165px;
+  left: 830px;
+  overflow: hidden;
+}
+.input_email2 {
+  width: 666px;
+  height: 97px;
+  background: url("../images/v27_89.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 382px;
+  left: 627px;
+  overflow: hidden;
+}
+.textbox_email {
+  width: 666px;
+  height: 60px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 37px;
+  left: 0px;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: large;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.text-Email2 {
+  width: 65px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.input_Pass2 {
+  width: 666px;
+  height: 95px;
+  background: url("../images/v27_88.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 520px;
+  left: 627px;
+  overflow: hidden;
+}
+.textbox_pass {
+  width: 666px;
+  height: 60px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: large;
+  top: 35px;
+  left: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.text-Pass2 {
+  width: 112px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: -10px;
+  left: 22px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.input_NewPass {
+  width: 666px;
+  height: 95px;
+  background: url("../images/v27_87.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 657px;
+  left: 627px;
+  overflow: hidden;
+}
+.textbox_newpass {
+  width: 666px;
+  height: 60px;
+  background: rgba(242,242,242,1);
+  opacity: 1;
+  position: absolute;
+  padding-left: 20px;
+  font-weight: bold;
+  font-size: large;
+  top: 35px;
+  left: 0px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  overflow: hidden;
+}
+.text-NewPass {
+  width: 160px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 5px;
+  left: 22px;
+  font-family: Roboto;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: left;
+}
+.btn_Register {
+  width: 132px;
+  height: 39px;
+  background: url("../images/v25_17.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 808px;
+  left: 894px;
+  overflow: hidden;
+}
+.btnRegister {
+  width: 132px;
+  height: 39px;
+  background: rgba(59,148,94,1);
+  color: #f2f2f2;
+  font-weight: bold;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  overflow: hidden;
+}
+.btnRegister:hover{
+  color: black;
+  background: #f2f2f2;
+  transition: 1s;
+}
